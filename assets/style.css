@@ -1,0 +1,75 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://drive.google.com/uc?id=1gHJ01xL8pXkganrFuUgf8KxQJBfaavxp');
+    background-size: cover;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .bg-image {
+      background-image: url('https://drive.google.com/uc?id=1_S71EsIkiRhPbnKMLRhsiBHrzi-56zZe')
+    }
+    
+    
+  }
+  
+  @media screen and (max-width: 912px){
+      .bg-image {
+      background-image: url('https://drive.google.com/uc?id=1_S71EsIkiRhPbnKMLRhsiBHrzi-56zZe')
+    }
+    
+  }
+  
+  .list-unstyled {
+    display: flex;
+    margin: 2px 1px 0 0;
+    flex-direction: row;
+    justify-content: center
+  }
+  
+  .nav-item {
+    background: #f1ba5e;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-link {
+    color: #b9332e;
+  }
+  
+  .nav-item:hover {
+    background: #b9332e;
+    transition: all 1s ease-in;
+  }
+  
+  .nav-link:hover {
+    color: #cbcbcb
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: blue;
+    transition: color 1.2s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color:#b9332e ; /* */
+    font-size: 72px;
+  }
+  
